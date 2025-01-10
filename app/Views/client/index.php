@@ -27,10 +27,10 @@
         <div class="row">
 
           <?php foreach ($client as $client) { ?>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="<?= base_url('assets/upload/client/' . $client['gambar']) ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/upload/client/' . $client['gambar']) ?>" class="img-fluid" alt="" style="width: 100%; height: 200px; object-fit: cover;">
               </div>
               <div class="member-info">
                 <h4><?= $client['nama'] ?></h4>
