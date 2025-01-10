@@ -37,6 +37,7 @@ $menu_layanan = $menu->layanan();
               <li><a href="<?= base_url('berita/profil/' . $menu_profil['slug_berita']) ?>"><?= $menu_profil['judul_berita'] ?></a></li>
               <?php } ?>
               <li><a href="<?= base_url('staff') ?>">Our Team</a></li>
+              <li><a href="<?= base_url('client') ?>">Our Client</a></li>
             </ul>
           </li>
 
