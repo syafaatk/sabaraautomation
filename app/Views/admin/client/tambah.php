@@ -33,12 +33,12 @@
 				</div>
 
 				<div class="form-group row">
-					<label class="col-3">Tempat, tanggal lahir</label>
+					<label class="col-3">Tempat, tanggal project</label>
 					<div class="col-3">
 						<input type="text" name="tempat_lahir" class="form-control" placeholder="Tempat lahir" value="<?= set_value('tempat_lahir') ?>">
 					</div>
 					<div class="col-3">
-						<input type="text" name="tanggal_lahir" class="form-control" placeholder="dd-mm-yyyy" value="<?= set_value('tanggal_lahir') ?>">
+						<input type="date" name="tanggal_lahir" class="form-control" placeholder="dd-mm-yyyy" value="<?= set_value('tanggal_lahir') ?>">
 					</div>
 				</div>
 
