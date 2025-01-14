@@ -42,7 +42,7 @@ $menu_layanan = $menu->layanan();
               <?php foreach ($menu_profil as $menu_profil) { ?>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('berita/profil/' . $menu_profil['slug_berita']) ?>"><?= $menu_profil['judul_berita'] ?></a></li>
               <?php } ?>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('staff') ?>">Staff &amp; Team Kami</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="base_url('staff') ?>">Staff &amp; Team Kami</a></li> -->
             </ul>
           </div>
 
