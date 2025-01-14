@@ -73,7 +73,7 @@ $menu_layanan = $menu->layanan();
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Java Web Media</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Sabara Automation</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

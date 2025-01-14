@@ -52,7 +52,7 @@ $site        = $konfigurasi->listing();
       <div class="alert alert-warning text-center">
         <h4>Oops... Mohon maaf</h4>
         <hr>
-        <p>Halaman ini hanya tersedia untuk versi Premium. <br>Silakan Hubungi Java Web Media <a href="https://javawebmedia.com">www.javawebmedia.com</a></p>
+        <p><br>Silakan Hubungi Admin Sabara Automation <a href="mailto:syafaatkhoirusy@gmail.com">syafaatkhoirusy@gmail.com</a></p>
       </div>
       <hr>
       <p class="mb-1 text-center">
