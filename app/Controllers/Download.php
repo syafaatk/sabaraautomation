@@ -8,7 +8,7 @@ use App\Models\Konfigurasi_model;
 class Download extends BaseController
 {
     // Download
-    public function index()
+    public function index1()
     {
         $m_konfigurasi = new Konfigurasi_model();
         $m_download    = new Download_model();
