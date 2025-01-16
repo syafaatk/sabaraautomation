@@ -62,7 +62,7 @@ $menu_layanan = $menu->layanan();
               <li><a href="<?= base_url('video') ?>">Galeri Video</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="<?= base_url('download') ?>">Download</a></li>
+          <!-- <li><a class="nav-link scrollto" href="base_url('download') ?>">Download</a></li> -->
           <li><a class="nav-link scrollto" href="<?= base_url('kontak') ?>">Kontak</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
